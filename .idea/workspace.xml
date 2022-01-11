@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="427c2f11-f78d-4788-9ee7-c9b2f7dcb5fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/summary/OrderSummary.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/summary/SummaryForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/summary/test/SummaryForm.test.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mocks/handlers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mocks/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/entry/Options.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/entry/ScoopOptions.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/entry/tests/Options.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/summary/SummaryForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/summary/SummaryForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/summary/test/SummaryForm.test.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/summary/test/SummaryForm.test.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +44,7 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="22tXbetje6dJpfE91GflPH0YuJm" />
   <component name="ProjectLevelVcsManager">
@@ -69,9 +74,10 @@
     <property name="rearrange.code.on.save" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Jest.Summary Form Tests">
+  <component name="RunManager" selected="Jest.Summary Form Tests.popover responds to hover">
     <configuration name="Summary Form Tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -127,6 +133,20 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="Summary Form Tests.popover responds to hover" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/pages/summary/test/SummaryForm.test.jsx" />
+      <test-names>
+        <test-name value="Summary Form Tests" />
+        <test-name value="popover responds to hover" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="start" />
@@ -135,19 +155,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.start" />
       <item itemvalue="Jest.Summary Form Tests.Given default render &lt;SummaryForm /&gt; will render and checkbox will be unchecked" />
       <item itemvalue="Jest.Summary Form Tests" />
       <item itemvalue="Jest.Summary Form Tests.Given checkbox is checked then the button becomes enabled" />
       <item itemvalue="Jest.Summary Form Tests.When checkbox is checked the button becomes enabled and vice versa" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="Jest.Summary Form Tests.popover responds to hover" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Summary Form Tests.popover responds to hover" />
         <item itemvalue="Jest.Summary Form Tests" />
         <item itemvalue="Jest.Summary Form Tests.When checkbox is checked the button becomes enabled and vice versa" />
         <item itemvalue="Jest.Summary Form Tests.Given checkbox is checked then the button becomes enabled" />
         <item itemvalue="Jest.Summary Form Tests.Given default render &lt;SummaryForm /&gt; will render and checkbox will be unchecked" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +184,8 @@
       <workItem from="1640657996879" duration="4644000" />
       <workItem from="1640671182019" duration="485000" />
       <workItem from="1640671683664" duration="915000" />
-      <workItem from="1640804115475" duration="7412000" />
+      <workItem from="1640804115475" duration="9001000" />
+      <workItem from="1641152196720" duration="7979000" />
     </task>
     <servers />
   </component>
