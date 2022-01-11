@@ -159,8 +159,8 @@
       <item itemvalue="Jest.Summary Form Tests" />
       <item itemvalue="Jest.Summary Form Tests.Given checkbox is checked then the button becomes enabled" />
       <item itemvalue="Jest.Summary Form Tests.When checkbox is checked the button becomes enabled and vice versa" />
-      <item itemvalue="npm.start" />
       <item itemvalue="Jest.Summary Form Tests.popover responds to hover" />
+      <item itemvalue="npm.start" />
     </list>
     <recent_temporary>
       <list>
