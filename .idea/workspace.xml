@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="427c2f11-f78d-4788-9ee7-c9b2f7dcb5fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/entry/ToppingOptions.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mocks/handlers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/mocks/handlers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/entry/Options.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/entry/Options.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/entry/ScoopOptions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/entry/ScoopOptions.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/entry/tests/Options.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/entry/tests/Options.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Jest.Options Test">
+  <component name="RunManager" selected="Jest.Options Test.displays image for each scoop option from server">
     <configuration name="Options Test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -85,6 +85,34 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="Options Test.displays image for each scoop option from server" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/pages/entry/tests/Options.test.js" />
+      <test-names>
+        <test-name value="Options Test" />
+        <test-name value="displays image for each scoop option from server" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Options Test.displays image for each topping option from server" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/pages/entry/tests/Options.test.js" />
+      <test-names>
+        <test-name value="Options Test" />
+        <test-name value="displays image for each topping option from server" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Summary Form Tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -95,34 +123,6 @@
       <test-file value="$PROJECT_DIR$/src/pages/summary/test/SummaryForm.test.jsx" />
       <test-names>
         <test-name value="Summary Form Tests" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Summary Form Tests.Given checkbox is checked then the button becomes enabled" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/pages/summary/test/SummaryForm.test.jsx" />
-      <test-names>
-        <test-name value="Summary Form Tests" />
-        <test-name value="Given checkbox is checked then the button becomes enabled" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Summary Form Tests.When checkbox is checked the button becomes enabled and vice versa" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/pages/summary/test/SummaryForm.test.jsx" />
-      <test-names>
-        <test-name value="Summary Form Tests" />
-        <test-name value="When checkbox is checked the button becomes enabled and vice versa" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -149,19 +149,19 @@
     </configuration>
     <list>
       <item itemvalue="Jest.Summary Form Tests" />
-      <item itemvalue="Jest.Summary Form Tests.Given checkbox is checked then the button becomes enabled" />
-      <item itemvalue="Jest.Summary Form Tests.When checkbox is checked the button becomes enabled and vice versa" />
       <item itemvalue="Jest.Summary Form Tests.popover responds to hover" />
       <item itemvalue="npm.start" />
       <item itemvalue="Jest.Options Test" />
+      <item itemvalue="Jest.Options Test.displays image for each topping option from server" />
+      <item itemvalue="Jest.Options Test.displays image for each scoop option from server" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Options Test.displays image for each scoop option from server" />
+        <item itemvalue="Jest.Options Test.displays image for each topping option from server" />
         <item itemvalue="Jest.Options Test" />
         <item itemvalue="Jest.Summary Form Tests.popover responds to hover" />
         <item itemvalue="Jest.Summary Form Tests" />
-        <item itemvalue="Jest.Summary Form Tests.When checkbox is checked the button becomes enabled and vice versa" />
-        <item itemvalue="Jest.Summary Form Tests.Given checkbox is checked then the button becomes enabled" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +180,7 @@
       <workItem from="1640804115475" duration="9001000" />
       <workItem from="1641152196720" duration="7979000" />
       <workItem from="1641878140694" duration="1671000" />
-      <workItem from="1642005054065" duration="2688000" />
+      <workItem from="1642005054065" duration="5830000" />
     </task>
     <servers />
   </component>
